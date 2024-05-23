@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+
+.navbar {
+  width: 100%;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 20px;
+}
+
+.textarea {
+  width: 60%;
+  height: 250px;
+  background: transparent;
+  padding: 20px;
+  border-radius: 20px;
+  color: white;
+  font-size: 21px;
+}
+
+.buttonsDiv {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  height: 30px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  padding: 0 10px;
+  text-align: center;
+  transition: all 0.2s;
+  color: #ffffff;
+  background-color: #282c34;
+}
+
+button:active {
+  transform: scale(0.95);
+  text-align: center;
+}
+
+.details {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.preview{
+  margin-top: 20px;
+  width: 100%;
+}
+
+@media screen and (min-width: 240px) and (max-width: 900px) {
+  .textarea {
+    width: 100%;
+  }
+  .buttonsDiv {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+}
